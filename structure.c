@@ -9,8 +9,8 @@ typedef struct
 void main()
 {
 	int i;
-	empd a[3];
-	for(i=0;i<3;i++){
+	empd a[20];
+	for(i=0;i<20;i++){
 	  printf("employee %d details ",i+1);
 		printf("\nemployee number:");	
 		scanf("%d",&a[i].empno);
@@ -22,7 +22,7 @@ void main()
 		scanf("%d",&a[i].salary);
 		}
 			printf("empl no\templ name\tdepartment name \tsalary\n");
-		for(i=0;i<3;i++)	{
+		for(i=0;i<20;i++)	{
 			 printf("%d\t",a[i].empno);
 				printf("%s\t\t",a[i].empname);
 				printf("%s\t\t\t",a[i].deptname);
